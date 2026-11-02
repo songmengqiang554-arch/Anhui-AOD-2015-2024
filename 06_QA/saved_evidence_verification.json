@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "check_count": 112,
+  "fail_count": 0,
+  "dataset": {
+    "rows": 161160,
+    "grid_count": 1343,
+    "months_per_grid": 120,
+    "features": [
+      "t2m",
+      "d2m",
+      "RH",
+      "u10",
+      "v10",
+      "blh",
+      "tp",
+      "dem_traceable",
+      "NDVI_final",
+      "month_sin",
+      "month_cos"
+    ],
+    "sha256": "076dbe16b1afe8abe5b73ab96a42b61bbba512ac4dcc2d8e689ab5d4250bd5be",
+    "AOD_intermediate_max_abs_diff": 0.0
+  },
+  "master_metric_comparisons": 76,
+  "main_prediction_sets": 16,
+  "metric_R2_absolute_tolerance": 2e-07,
+  "metric_error_absolute_tolerance": 2e-08,
+  "CSV_reader": "low_memory=False; nonrandom fold identifiers normalized to int64 before grouping",
+  "max_abs_locked_metric_difference": 6.78802680731394e-10,
+  "NDVI_removed_saved_model_year_files": 40,
+  "NDVI_summary": [
+    {
+      "model": "Ridge",
+      "original_mean_R2": -0.004536933595270997,
+      "without_NDVI_mean_R2": -0.011329183104449015,
+      "all_yearly_signs_unchanged": true,
+      "both_means_negative": true
+    },
+    {
+      "model": "RandomForest",
+      "original_mean_R2": -0.04878175585420783,
+      "without_NDVI_mean_R2": -0.05831648817956832,
+      "all_yearly_signs_unchanged": true,
+      "both_means_negative": true
+    },
+    {
+      "model": "HistGradientBoosting",
+      "original_mean_R2": -0.04571931732654072,
+      "without_NDVI_mean_R2": -0.049405541442918935,
+      "all_yearly_signs_unchanged": true,
+      "both_means_negative": true
+    },
+    {
+      "model": "XGBoost",
+      "original_mean_R2": -0.026907981588783908,
+      "without_NDVI_mean_R2": -0.029005212161066118,
+      "all_yearly_signs_unchanged": true,
+      "both_means_negative": true
+    }
+  ],
+  "trend_summary": {
+    "annual_significant": 1325,
+    "ordinary_seasonal_significant": 1341,
+    "covariance_adjusted_seasonal_significant": 1325,
+    "annual_percent": 98.65971705137751,
+    "ordinary_seasonal_percent": 99.85107967237528,
+    "covariance_adjusted_seasonal_percent": 98.65971705137751,
+    "ordinary_seasonal_only_vs_adjusted": 16,
+    "annual_only_vs_adjusted": 5,
+    "adjusted_only_vs_annual": 5,
+    "median_annual_slope": -0.0204722222222222,
+    "median_ordinary_seasonal_slope": -0.0191666666666666,
+    "median_covariance_adjusted_seasonal_slope": -0.0191666666666666
+  },
+  "repository_manifested_files": 142,
+  "models_fitted": 0,
+  "original_scientific_scripts_executed": 0,
+  "raw_to_grid_reextraction_run": false,
+  "trend_tests_rerun": false,
+  "verification_scope": "saved predictions, targets, fixed registry identity, recorded metrics and counts only",
+  "not_certified": [
+    "portable end-to-end raw-to-model pipeline",
+    "original NDVI interpolation history",
+    "data/code redistribution permission",
+    "clean environment model reproduction"
+  ]
+}

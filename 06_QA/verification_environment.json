@@ -1,0 +1,10 @@
+{
+  "python_version": "3.11.11 | packaged by conda-forge | (main, Mar  3 2025, 20:29:43) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "win32",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.1",
+    "pyarrow": "14.0.2"
+  },
+  "execution": "saved-prediction readback only, no model fitting"
+}

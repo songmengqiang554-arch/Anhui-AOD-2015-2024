@@ -1,0 +1,13 @@
+python_version=3.11.11 | packaged by conda-forge | (main, Mar  3 2025, 20:29:43) [MSC v.1943 64 bit (AMD64)]
+platform=Windows-10-10.0.26200-SP0
+numpy=1.26.4
+pandas=3.0.1
+scikit_learn=1.2.2
+matplotlib=3.8.0
+features=['t2m', 'd2m', 'RH', 'u10', 'v10', 'blh', 'tp', 'dem_traceable', 'NDVI_final', 'month_sin', 'month_cos']
+target=AOD
+alpha_candidates=[0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+random_state=42
+standardization=StandardScaler fitted inside each training fold
+target_standardization=False
+OneDrive_used=False

@@ -1,0 +1,19 @@
+﻿variable,unit,role,storage
+sample_id,zero-based original row index,key_or_coordinate_not_predictor,stored exact original token
+grid_id,identifier,key_or_coordinate_not_predictor,stored exact original token
+year,calendar year,key_or_coordinate_not_predictor,stored exact original token
+month,1-12,key_or_coordinate_not_predictor,stored exact original token
+lon,degrees east,key_or_coordinate_not_predictor,stored exact original token
+lat,degrees north,key_or_coordinate_not_predictor,stored exact original token
+AOD,dimensionless,response,stored exact original token
+t2m,degree C,predictor,stored exact original token
+d2m,degree C,predictor,stored exact original token
+RH,%,predictor,stored exact original token
+u10,m s-1,predictor,stored exact original token
+v10,m s-1,predictor,stored exact original token
+blh,m,predictor,stored exact original token
+tp,mm day-1,predictor,stored exact original token
+dem_traceable,m,predictor,stored exact original token
+NDVI_final,dimensionless,predictor,stored exact original token
+month_sin,dimensionless,predictor,derived sin/cos(2*pi*month/12)
+month_cos,dimensionless,predictor,derived sin/cos(2*pi*month/12)

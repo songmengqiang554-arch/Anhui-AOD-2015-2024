@@ -1,0 +1,78 @@
+﻿model,parameter,value,source
+RandomForest,bootstrap,True,Step33 model_factories
+RandomForest,ccp_alpha,0.0,Step33 model_factories
+RandomForest,criterion,squared_error,Step33 model_factories
+RandomForest,max_depth,20,Step33 model_factories
+RandomForest,max_features,sqrt,Step33 model_factories
+RandomForest,max_leaf_nodes,None,Step33 model_factories
+RandomForest,max_samples,None,Step33 model_factories
+RandomForest,min_impurity_decrease,0.0,Step33 model_factories
+RandomForest,min_samples_leaf,2,Step33 model_factories
+RandomForest,min_samples_split,2,Step33 model_factories
+RandomForest,min_weight_fraction_leaf,0.0,Step33 model_factories
+RandomForest,n_estimators,50,Step33 model_factories
+RandomForest,n_jobs,-1,Step33 model_factories
+RandomForest,oob_score,False,Step33 model_factories
+RandomForest,random_state,42,Step33 model_factories
+RandomForest,verbose,0,Step33 model_factories
+RandomForest,warm_start,False,Step33 model_factories
+HistGradientBoosting,categorical_features,None,Step33 model_factories
+HistGradientBoosting,early_stopping,auto,Step33 model_factories
+HistGradientBoosting,interaction_cst,None,Step33 model_factories
+HistGradientBoosting,l2_regularization,0.0,Step33 model_factories
+HistGradientBoosting,learning_rate,0.05,Step33 model_factories
+HistGradientBoosting,loss,squared_error,Step33 model_factories
+HistGradientBoosting,max_bins,255,Step33 model_factories
+HistGradientBoosting,max_depth,None,Step33 model_factories
+HistGradientBoosting,max_iter,200,Step33 model_factories
+HistGradientBoosting,max_leaf_nodes,31,Step33 model_factories
+HistGradientBoosting,min_samples_leaf,20,Step33 model_factories
+HistGradientBoosting,monotonic_cst,None,Step33 model_factories
+HistGradientBoosting,n_iter_no_change,10,Step33 model_factories
+HistGradientBoosting,quantile,None,Step33 model_factories
+HistGradientBoosting,random_state,42,Step33 model_factories
+HistGradientBoosting,scoring,loss,Step33 model_factories
+HistGradientBoosting,tol,1e-07,Step33 model_factories
+HistGradientBoosting,validation_fraction,0.1,Step33 model_factories
+HistGradientBoosting,verbose,0,Step33 model_factories
+HistGradientBoosting,warm_start,False,Step33 model_factories
+XGBoost,objective,reg:squarederror,Step33 / Step19 xgb_model
+XGBoost,base_score,None,Step33 / Step19 xgb_model
+XGBoost,booster,None,Step33 / Step19 xgb_model
+XGBoost,callbacks,None,Step33 / Step19 xgb_model
+XGBoost,colsample_bylevel,None,Step33 / Step19 xgb_model
+XGBoost,colsample_bynode,None,Step33 / Step19 xgb_model
+XGBoost,colsample_bytree,0.9,Step33 / Step19 xgb_model
+XGBoost,device,None,Step33 / Step19 xgb_model
+XGBoost,early_stopping_rounds,None,Step33 / Step19 xgb_model
+XGBoost,enable_categorical,False,Step33 / Step19 xgb_model
+XGBoost,eval_metric,None,Step33 / Step19 xgb_model
+XGBoost,feature_types,None,Step33 / Step19 xgb_model
+XGBoost,feature_weights,None,Step33 / Step19 xgb_model
+XGBoost,gamma,None,Step33 / Step19 xgb_model
+XGBoost,grow_policy,None,Step33 / Step19 xgb_model
+XGBoost,importance_type,None,Step33 / Step19 xgb_model
+XGBoost,interaction_constraints,None,Step33 / Step19 xgb_model
+XGBoost,learning_rate,0.05,Step33 / Step19 xgb_model
+XGBoost,max_bin,None,Step33 / Step19 xgb_model
+XGBoost,max_cat_threshold,None,Step33 / Step19 xgb_model
+XGBoost,max_cat_to_onehot,None,Step33 / Step19 xgb_model
+XGBoost,max_delta_step,None,Step33 / Step19 xgb_model
+XGBoost,max_depth,4,Step33 / Step19 xgb_model
+XGBoost,max_leaves,None,Step33 / Step19 xgb_model
+XGBoost,min_child_weight,None,Step33 / Step19 xgb_model
+XGBoost,missing,nan,Step33 / Step19 xgb_model
+XGBoost,monotone_constraints,None,Step33 / Step19 xgb_model
+XGBoost,multi_strategy,None,Step33 / Step19 xgb_model
+XGBoost,n_estimators,200,Step33 / Step19 xgb_model
+XGBoost,n_jobs,-1,Step33 / Step19 xgb_model
+XGBoost,num_parallel_tree,None,Step33 / Step19 xgb_model
+XGBoost,random_state,42,Step33 / Step19 xgb_model
+XGBoost,reg_alpha,None,Step33 / Step19 xgb_model
+XGBoost,reg_lambda,None,Step33 / Step19 xgb_model
+XGBoost,sampling_method,None,Step33 / Step19 xgb_model
+XGBoost,scale_pos_weight,None,Step33 / Step19 xgb_model
+XGBoost,subsample,0.9,Step33 / Step19 xgb_model
+XGBoost,tree_method,hist,Step33 / Step19 xgb_model
+XGBoost,validate_parameters,None,Step33 / Step19 xgb_model
+XGBoost,verbosity,None,Step33 / Step19 xgb_model

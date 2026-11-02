@@ -1,0 +1,11 @@
+﻿rank,feature,mean_abs_SHAP,mean_signed_SHAP,feature_SHAP_spearman_rho,feature_SHAP_spearman_p,direction_label,interpretation_boundary,tree_explainer_approximate
+1,month_sin,0.03205090180823127,8.516458808622308e-06,0.8832832334368503,0.0,predominantly_positive_model_association,Model-based contribution; not causal.,True
+2,dem_traceable,0.030570308693688434,0.0021851654254113144,-0.7445090448707186,0.0,predominantly_negative_model_association,Model-based contribution; not causal.,True
+3,t2m,0.023527735188700504,0.00044079274036155436,-0.6010501198434602,0.0,predominantly_negative_model_association,Model-based contribution; not causal.,True
+4,RH,0.02002375198255786,-0.00024396832814097908,0.7078317951146352,0.0,predominantly_positive_model_association,Model-based contribution; not causal.,True
+5,u10,0.017577306113455326,0.0006445300208660249,-0.5937228315311717,0.0,predominantly_negative_model_association,Model-based contribution; not causal.,True
+6,d2m,0.0148591312445257,0.0002877292156011269,-0.43463058062841237,0.0,predominantly_negative_model_association,Model-based contribution; not causal.,True
+7,v10,0.01481419326382393,0.0002559000784092973,0.15755375283385556,2.498925049310527e-111,predominantly_positive_model_association,Model-based contribution; not causal.,True
+8,tp,0.01345177943290396,0.00023284550152769464,0.07939152486072784,2.4591180929020825e-29,weak_or_nonmonotonic,Model-based contribution; not causal.,True
+9,blh,0.012987525219239529,0.0001330605603042034,-0.16229251882817758,4.26874135887653e-118,predominantly_negative_model_association,Model-based contribution; not causal.,True
+10,NDVI_final,0.009037478738084135,0.0002559795393305067,-0.807367962546484,0.0,predominantly_negative_model_association,Model-based contribution; not causal.,True

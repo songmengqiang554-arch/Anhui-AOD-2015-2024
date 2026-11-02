@@ -1,0 +1,3 @@
+﻿validation_scheme,n_predictions,unique_sample_ids,duplicate_sample_ids,all_frozen_samples_covered,fold_matches_registry,held_out_unit_exclusive,training_residuals_present,observed_matches_frozen_target,status
+grid-cell grouped cross-validation,161160,161160,0,True,True,True,False,True,PASS
+continuous spatial-region holdout,161160,161160,0,True,True,True,False,True,PASS

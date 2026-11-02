@@ -1,0 +1,33 @@
+{
+  "purpose": "SHAP interpretation and historical relationship description only",
+  "not_for": "replacement of cross-validated performance or future-year forecasting",
+  "trained_at": "2026-07-26 21:18:32",
+  "training_rows": 161160,
+  "features": [
+    "t2m",
+    "d2m",
+    "RH",
+    "u10",
+    "v10",
+    "blh",
+    "tp",
+    "dem_traceable",
+    "NDVI_final",
+    "month_sin",
+    "month_cos"
+  ],
+  "target": "AOD",
+  "parameters": {
+    "n_estimators": 50,
+    "max_depth": 20,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "fit_seconds": 4.9099037647247314,
+  "source_dataset_sha256": "a4110f4b6cae4bd91212f02c1faf78870f72d1312122fd3b840c74ff2dd6a11d",
+  "model_file": "<LOCAL_PATH>",
+  "model_sha256": "99fa4b82623d2b2e9eeb3e28783797dd6b8974554d3a64c8f6b46184a91a566a",
+  "cross_validated_performance_source": "<LOCAL_PATH>"
+}

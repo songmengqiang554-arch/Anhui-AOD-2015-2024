@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "grid_key_alignment": "PASS",
+  "all_grid_software_check": "PASS",
+  "S_to_p_independent_readback": "PASS",
+  "p_to_BH_independent_readback": "PASS",
+  "slopes_unchanged_by_covariance_adjustment": "PASS",
+  "count_and_summary_consistency": "PASS",
+  "counts": {
+    "annual": 1325,
+    "ordinary_seasonal": 1341,
+    "correlation_adjusted_seasonal": 1325
+  },
+  "ordinary_seasonal_median_raw_p": 9.160090463922188e-10,
+  "correlated_seasonal_median_raw_p": 0.0098729550354326,
+  "closest_new_q_to_005": 0.001184339028754297,
+  "statistical_scope": "Conditional seasonal-covariance sensitivity; no annual correction or full 3PW claimed"
+}

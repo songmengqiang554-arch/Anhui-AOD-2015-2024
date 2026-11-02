@@ -1,0 +1,31 @@
+{
+  "rows": 161160,
+  "retained_fields": [
+    "grid_id",
+    "year",
+    "month",
+    "lon",
+    "lat",
+    "AOD",
+    "t2m",
+    "d2m",
+    "RH",
+    "u10",
+    "v10",
+    "blh",
+    "tp",
+    "dem_traceable",
+    "NDVI_final"
+  ],
+  "sample_id": "zero-based original row index",
+  "scientific_numeric_tokens_changed": 0,
+  "row_order_changed": false,
+  "public_panel_sha256": "076dbe16b1afe8abe5b73ab96a42b61bbba512ac4dcc2d8e689ab5d4250bd5be",
+  "source_panel_sha256": "a4110f4b6cae4bd91212f02c1faf78870f72d1312122fd3b840c74ff2dd6a11d",
+  "excluded_field_categories": [
+    "legacy covariates not in the current 11-predictor model",
+    "NTL sensitivity-only fields",
+    "local provenance paths",
+    "unused NDVI flags"
+  ]
+}

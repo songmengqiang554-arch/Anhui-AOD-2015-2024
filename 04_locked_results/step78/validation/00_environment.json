@@ -1,0 +1,13 @@
+{
+  "python": "3.11.11 | packaged by conda-forge | (main, Mar  3 2025, 20:29:43) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "<LOCAL_PATH>",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.1",
+    "scipy": "1.11.4",
+    "pymannkendall": "1.4.3",
+    "statsmodels": "0.14.0"
+  },
+  "seed": 20261016
+}

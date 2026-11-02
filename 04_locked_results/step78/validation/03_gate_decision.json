@@ -1,0 +1,7 @@
+{
+  "formula_pass": true,
+  "formula_cases": 133,
+  "calibration_core_pass": true,
+  "gate": "PASS",
+  "scope": "Conditional correlated-seasonal sensitivity only; not arbitrary temporal-dependence correction"
+}

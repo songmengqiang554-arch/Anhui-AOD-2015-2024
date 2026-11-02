@@ -1,0 +1,130 @@
+{
+  "created": "2026-10-16T14:30:59.853066",
+  "input": "<LOCAL_PATH>",
+  "input_sha256": "b21eeb6199d3206bc03cc813b6d7581f9e19c3caa5ee7192fe12ec834eb8a2f7",
+  "integrity": {
+    "grid_count": 1343,
+    "records": 161160,
+    "annual_n": 10,
+    "monthly_n": 120,
+    "period": "2015-01 through 2024-12",
+    "complete_grid_count": 1343
+  },
+  "reproduction": {
+    "all_1343_original_values_reproduced": true,
+    "all_1343_seasonal_values_reproduced": true
+  },
+  "annual_standard_MK_BH": {
+    "median_slope": -0.0204722222222222,
+    "negative_slope_count": 1343,
+    "fdr_significant_decline_count": 1325,
+    "fdr_significant_decline_percent": 98.65971705137751
+  },
+  "ordinary_seasonal_MK_BH": {
+    "median_slope": -0.0191666666666666,
+    "negative_slope_count": 1343,
+    "fdr_significant_decline_count": 1341,
+    "fdr_significant_decline_percent": 99.85107967237528
+  },
+  "correlation_adjusted_seasonal_MK_CC_BH": {
+    "median_slope": -0.0191666666666666,
+    "negative_slope_count": 1343,
+    "fdr_significant_decline_count": 1325,
+    "fdr_significant_decline_percent": 98.65971705137751
+  },
+  "comparison": {
+    "new_minus_ordinary_seasonal_pp": -1.191362620997765,
+    "new_minus_annual_pp_not_same_test": 0.0,
+    "annual_vs_seasonal_slope_sign_agreement_percent": 100.0,
+    "annual_vs_correlated_seasonal_class_agreement_percent": 99.2553983618764,
+    "seasonal_vs_correlated_seasonal_class_agreement_percent": 98.80863737900223,
+    "ordinary_seasonal_significant_but_new_not_count": 16,
+    "annual_significant_but_new_not_count": 5,
+    "new_significant_but_ordinary_seasonal_not_count": 0,
+    "median_variance_ratio": 5.653324438514566,
+    "median_abs_relative_slope_difference_annual_seasonal_percent": 6.901509705248021
+  },
+  "autocorrelation_diagnostics": {
+    "annual_raw_r1": {
+      "median": 0.709621682738124,
+      "p05": 0.5878904160952855,
+      "p95": 0.8089796257402987,
+      "min": -0.0605560585533861,
+      "max": 0.8414107474410372
+    },
+    "annual_sen_detrended_r1": {
+      "median": 0.042755838356299,
+      "p05": -0.01658020268023474,
+      "p95": 0.12622322426431062,
+      "min": -0.0970387289974802,
+      "max": 0.2237987185599682
+    },
+    "monthly_raw_r1": {
+      "median": 0.5577438333085915,
+      "p05": 0.4444655087163041,
+      "p95": 0.6174831201760788,
+      "min": 0.2977272232288258,
+      "max": 0.6468479980204511
+    },
+    "monthly_detrended_deseasonal_r1": {
+      "median": 0.2392686928058265,
+      "p05": 0.12247386370036246,
+      "p95": 0.3873362402842153,
+      "min": 0.0753136695548543,
+      "max": 0.4687959846863257
+    },
+    "monthly_detrended_deseasonal_r12": {
+      "median": -0.05700285913164,
+      "p05": -0.10978056712991716,
+      "p95": -0.008093361312401846,
+      "min": -0.1723941224256662,
+      "max": 0.0305545014450765
+    },
+    "monthly_detrended_deseasonal_r24": {
+      "median": -0.1780125286682521,
+      "p05": -0.26618286703267996,
+      "p95": -0.0936693596682022,
+      "min": -0.3125878274143656,
+      "max": 0.0256176148663372
+    },
+    "calendar_month_detrended_annual_r1_median": {
+      "median": -0.127705884789403,
+      "p05": -0.2219922540138872,
+      "p95": -0.051149155767894944,
+      "min": -0.3001668494730456,
+      "max": 0.0341021729976127
+    },
+    "calendar_month_detrended_annual_r1_max": {
+      "median": 0.2273252042829548,
+      "p05": 0.11366631041564511,
+      "p95": 0.49352103532783953,
+      "min": -0.0151195105884073,
+      "max": 0.6355723836301079
+    },
+    "calendar_month_detrended_annual_r1_min": {
+      "median": -0.505990244652805,
+      "p05": -0.6581031345653968,
+      "p95": -0.37274594407423195,
+      "min": -0.8767636734500706,
+      "max": -0.2592901784376317
+    }
+  },
+  "threepw": {
+    "current_grid_calls": 0,
+    "current_import_failed": true,
+    "current_grid_call_failures": 0,
+    "historical_unmodified_official_grid_calls": 10,
+    "historical_IndexError_failures": 10,
+    "corrected_p_values_available": false,
+    "full_grid_3pw_not_run": true
+  },
+  "annual_autocorrelation_corrected_significant_percent": null,
+  "annual_correction_status": "NOT_VERIFIED: n=10; no validated unconditional correction produced",
+  "limitations": [
+    "Correlation-adjusted seasonal result is conditional, not full long-memory correction",
+    "Year-to-year persistence is not eliminated by the seasonal covariance formula",
+    "Slope is original seasonal Sen, not a new prewhitened slope",
+    "Simulation assesses specified null scenarios, not arbitrary data-generating processes",
+    "BH assumes suitable dependence conditions; no spatial-field independence claimed"
+  ]
+}
